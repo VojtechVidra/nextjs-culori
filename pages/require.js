@@ -1,11 +1,11 @@
-import { converter } from "culori";
+import { converter } from "culori/require";
 
 const lchConverter = converter("lch");
 
-export default function Home() {
+export default function Require() {
   return (
     <div>
-      <h1>Hello Culori!</h1>
+      <h1>Hello Culori/require!</h1>
 
       <p>
         {JSON.stringify(
